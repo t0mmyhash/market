@@ -1,0 +1,32 @@
+QWidget { background-color: white; }
+
+QHBoxLayout {background-color: white;}
+
+QLineEdit {
+    background-color: white;
+    width : 30;
+    padding: 0px 0px 0px 5px;
+}
+
+QComboBox {
+    padding: 0px 0px 0px 3px;
+    max-width: 90;
+}
+
+QCheckBox {
+    padding: 0px 0px 0px 0px;
+    spacing: 10px;
+    background-color: #e6e6e6;
+}
+
+QComboBox QAbstractItemView {
+    color: #947199;
+    border-left: 6;
+    padding: 0px 0px 0px 0px;
+    selection-color: black;
+    background-color: white;
+}
+
+QFrame {background-color : #e6e6e6; }
+
+QSplitter {background-color : white;}
